@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: NerdHideoutCast
+  host: NerdHideoutCast
+  disk_quota: 1024M
+  services:
+  - NerdHideoutCast-MAS
+  - NerdHideoutCast-Push
+  - NerdHideoutCast-MobileData
+  - NerdHideoutCast-Mobile Quality Assurance
